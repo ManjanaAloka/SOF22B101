@@ -10,5 +10,12 @@ int main()
 }
 
 void myFunc(){
-    string myArray[] = {"manja","nimneth","isuru"};
+    string myArray[] = {"ab","cd","asd"};
+    int arraySize = sizeof(myArray);
+    std::cout << arraySize/32;
+    // for (size_t i = 0; i < count; i++)
+    // {
+    //     /* code */
+    // }
+    
 }
